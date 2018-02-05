@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App{
+  padding-top: 40px
+}
+
+.cell{
+  border-top: 1px solid silver;
+  border-left: 1px solid silver;
+  border-bottom: 1px solid silver;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.has-error{
+  color: red;
+  background-color: rgba(168, 162, 162, 0.349);
+}
+
+.containerTablero{
+  margin-top:10px
+}
+
+input{
+  height: 50px;
+}
+
+.readonly{
+  font-weight: bold;
+}
+
+#a2, #b2, #c2, #d2, #e2, #f2, #g2, #h2, #i2,
+#a5, #b5, #c5, #d5, #e5, #f5, #g5, #h5, #i5,
+#a8, #b8, #c8, #d8, #e8, #f8, #g8, #h8, #i8{
+  border-right: 3px solid black !important;
+}
+
+#c0, #c1, #c2, #c3, #c4, #c5, #c6, #c7, #c8,
+#f0, #f1, #f2, #f3, #f4, #f5, #f6, #f7, #f8,
+#i0, #i1, #i2, #i3, #i4, #i5, #i6, #i7, #i8{
+  border-bottom: 3px solid black !important;
+}
+
+#a0, #a1, #a2, #a3, #a4, #a5, #a6, #a7, #a8{
+  border-top: 3px solid black !important;
+}
+
+#a0, #b0, #c0, #d0, #e0, #f0, #g0, #h0, #i0{
+  border-left: 3px solid black !important;
+}
